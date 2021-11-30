@@ -81,11 +81,15 @@ p, h1{
 .contenedor_servicios{
 	margin-left: 20px;
 	align-self: flex-end;
-	
-
-
 }
 
+.ubicacion {
+	height: 250px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: 0px;
+    margin-top: 400px;
+}
 .contenedor__item{
 	width: 150px;
 	height: 220px;
