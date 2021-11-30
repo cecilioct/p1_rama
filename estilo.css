@@ -1,0 +1,291 @@
+*{
+	font-size: 2em; 
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    font-size: 20px ;
+} 
+/*
+lightblue:  #16c0f0;
+darkblue:  #04214f;
+gray: #3c444d;
+
+*/
+
+.header__container{
+	width: auto;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+    background:#16c0f0;
+
+
+}
+
+.contenedor1 {
+	width: auto;
+	height:580px;
+	display:flex;
+	background-image:url("empresa.jpg");
+	background-size: cover;
+
+
+
+}
+/*Información*/
+ 
+.contenedorinfo{
+	height: 200px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: 40px;
+	margin-top: 40px;
+
+
+}
+.texto{
+	background: #062e4f;
+	border-radius: 3%;
+    transition: 1.2s ease;
+    color: white;
+
+}
+.texto:hover {
+	-moz-transform: scale(1.1);
+}
+
+.texto p {
+	text-align: center;
+}
+
+.contenedor__item:hover{
+	outline: 4px grey solid;
+}
+
+
+
+
+/*Servicios*/
+
+
+.tit-div h1{
+	color: #d7dedd;
+}
+
+p, h1{ 
+	color: white;
+	text-align: center;
+}
+
+.contenedor_servicios{
+	margin-left: 20px;
+	align-self: flex-end;
+	
+
+
+}
+
+.contenedor__item{
+	width: 150px;
+	height: 250px;
+	background: #062e4f;
+	display:inline-flex;
+	border-radius: 2%;
+
+
+}
+
+.contenedor__item:nth-child(even){
+	background: #1a637d;
+
+}
+
+
+/*header*/
+.header__item:hover {
+	background: grey;
+
+}
+.header__item{
+	width: 80px;
+}
+.header__item img {
+	margin-left: 20px;
+	margin-top: 10px;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------PRATICA CON grid
+body{
+	background-color: #000;
+}
+
+.flex-contenedor{
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #333;
+    margin:50px 50px;
+    padding: 30px;
+    border: 8px solid #000;
+    outline: 4px solid #2da;
+}
+
+.form{
+	min-width:400px;
+	flex: 1;
+	text-align: center;
+	padding:30px;
+    order:5 ;
+
+}
+
+.form__input{
+	width: 100%;
+	padding: 6px;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 4px solid #2da;
+	background: transparent;
+	color: gray;
+}
+
+.form__input:focus{
+	background: #333;
+	color: white;
+    border-bottom: 4px solid #5dd;
+
+
+}
+
+.form textarea{
+	min-height: 120px;
+	resize: none;
+
+}
+
+.form-img{
+	flex: 1;
+	display: flex;
+	padding: 10px;
+	min-width:200px ;
+	max-width: 400px;
+	order: 2 ;
+}
+
+.form-img div{
+	padding: 10px;
+	
+}
+
+.img-contenedor {
+	padding: 20px;
+    margin: auto ;
+
+}
+
+.img-contenedor div {
+	background: #2da;
+	border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.form-img img{
+	width: 80%
+	margin: auto;
+}
+
+.form input[type="submit"]{
+	background: #2da;
+	border-bottom: none;
+	padding: 12px;
+	color: #000;
+}
+
+.form input[type="submit"]:hover {
+	background: #5dd;
+	border-bottom: none;
+	padding: 12px;
+}
+---------------------------------------
+*/
+
+
+/*h2 {
+	background: red;
+	display: inline-block;
+	padding: 20px 30px ;
+	padding: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 2em;
+	border: 4px solid green ;
+	box-shadow: 10px 10px 5px 10px #000;
+	text-shadow: 2px 2px 7px skyblue;
+	transform: rotate(45deg);
+}
+--------------------------------
+div{
+	
+	display: block;
+	background: green;
+	position: absolute;
+}
+
+div div{
+	height: 75px;
+	width: 75px; 
+	background: yellow;
+
+
+}
+
+.contenedor {
+	position: relative;
+	border: 4px solid red;
+	margin: 50px auto;
+	height: 450px;
+	width: 450px;
+	background: green;
+}
+
+.caja1{
+
+}
+
+.caja2{
+	right: 0;
+}
+.caja3{
+	right: 0;
+    bottom: 0;
+}
+
+.caja4{
+	bottom: 0;
+}
+
+.caja5{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+}*/
