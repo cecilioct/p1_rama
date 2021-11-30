@@ -16,14 +16,14 @@ gray: #3c444d;
 	height: 60px;
 	display: flex;
 	justify-content: center;
-    background:#16c0f0;
+    background:#f0c816;
 
 
 }
 
 .contenedor1 {
 	width: auto;
-	height:580px;
+	height:555px;
 	display:flex;
 	background-image:url("empresa.jpg");
 	background-size: cover;
@@ -43,11 +43,13 @@ gray: #3c444d;
 
 }
 .texto{
-	background: #062e4f;
+	background: #f0c816;
 	border-radius: 3%;
     transition: 1.2s ease;
-    color: white;
+}
 
+.texto p {
+	color:black;
 }
 .texto:hover {
 	-moz-transform: scale(1.1);
@@ -72,22 +74,26 @@ gray: #3c444d;
 }
 
 p, h1{ 
-	color: white;
+	color: black;
 	text-align: center;
 }
 
 .contenedor_servicios{
 	margin-left: 20px;
 	align-self: flex-end;
-	
-
-
 }
 
+.ubicacion {
+	height: 250px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: 0px;
+    margin-top: 400px;
+}
 .contenedor__item{
 	width: 150px;
-	height: 250px;
-	background: #062e4f;
+	height: 220px;
+	background: #f0c816;
 	display:inline-flex;
 	border-radius: 2%;
 
@@ -95,7 +101,7 @@ p, h1{
 }
 
 .contenedor__item:nth-child(even){
-	background: #1a637d;
+	background: #cfd146;
 
 }
 
